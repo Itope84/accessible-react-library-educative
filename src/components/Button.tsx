@@ -1,7 +1,6 @@
 import React, {  MouseEventHandler } from "react"
-export interface ButtonProps {
+export type ButtonProps = {
     disabled?: boolean,
-    // size?: "small" | "medium" | "large",
     onClick?: MouseEventHandler<HTMLButtonElement>
     children?: React.ReactNode
 }
